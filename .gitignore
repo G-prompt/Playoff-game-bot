@@ -1,0 +1,50 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+game_ai_bot/logs/*.log
+*.log
+
+# Models (can be large)
+game_ai_bot/models/*.pt
+game_ai_bot/models/*.pth
+!game_ai_bot/models/README.md
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Environment variables
+.env
