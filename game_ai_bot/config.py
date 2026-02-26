@@ -197,7 +197,7 @@ DEBUG_SHOW_DETECTIONS = False
 DEBUG_DIR = './debug_images'
 
 # Simulate game without ADB (for development)
-SIMULATION_MODE = False
+SIMULATION_MODE = True  # ✓ ENABLED FOR TESTING
 
 # Verbose output
 VERBOSE = False
